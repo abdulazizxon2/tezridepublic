@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+.container{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+}
+.languages img{
+  width: 28px;
+  height: 17px;
+  
+}
