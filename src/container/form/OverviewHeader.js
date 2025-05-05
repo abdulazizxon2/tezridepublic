@@ -3,12 +3,16 @@ import React from "react";
 export default function OverviewHeader() {
   return (
     <div
-      className="container bg-no-repeat bg-cover bg-center"
-      style={{ backgroundImage: "url('/icons/Rectangle 26.svg')" }}
+      className="relative bottom-40  w-full bg-no-repeat bg-cover bg-center"
+      style={{
+        backgroundImage: "url('/icons/Rectangle 26.svg')",
+        height: "900px",
+      }}
     >
-      <div className="relative flex justify-center gap-4 items-center py-10">
-        <div className="flex flex-col gap-10">
-          <h1 className="flex flex-col text-5xl w-3xl font-bold text-blue-500">
+      <div className=" flex justify-center  items-center py-30">
+        <div className="flex items-center mt-36">
+        <div className=" relative left-30 mb-12 flex flex-col gap-10">
+          <h1 className="flex flex-col text-5xl w-4xl font-bold text-blue-500 ">
             <span>Viloyatga chiqish hech qachon</span>
             <span>Bu qadar oson bo‘lmagan!</span>
           </h1>
@@ -27,8 +31,9 @@ export default function OverviewHeader() {
             </div>
           </div>
         </div>
-        <div className="relative top-10 left-18">
+        <div className="relative right-15">
           <img src="/images/taxibook.png" alt="" className="w-lg" />
+        </div>
         </div>
       </div>
     </div>

@@ -3,13 +3,11 @@ import React from "react";
 export default function OverviewAbout() {
   return (
     <div className="container">
-      <div className="m-20 flex justify-center items-center gap-12 ">
+      <div className="m-20 flex justify-around items-center  ">
       <div className="max-w-xl ">
         <h1 className="text-4xl font-bold text-blue-500 mb-4">Biz haqimizda</h1>
         <h2 className="text-blue-400 font-medium text-xl text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-          veritatis magni consectetur perferendis natus veniam sint, eius
-          reiciendis sit facilis sunt obcaecati repellat. 
+        Biz – viloyatlararo tez, qulay va ishonchli yetkazib berish xizmatimiz bilan har bir foydalanuvchiga sifatli, arzon va tezkor yechimlar taklif qilamiz.
         </h2>
       </div>
       <div className="w-[400px] h-auto shadow-lg rounded-md overflow-hidden">
